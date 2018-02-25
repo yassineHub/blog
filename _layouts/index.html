@@ -16,11 +16,7 @@ layout: default
     </h2>
     {% include post-meta.html post=post %}
 
-    {% if post.excerpt %}
-      {{ post.excerpt }}
-    {% else %}
-      {{ post.content }}
-    {% endif %}
+
 
     {% if post.excerpt %}
       {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
@@ -31,9 +27,7 @@ layout: default
         {{ post.excerpt | number_of_words }}
       {% endcapture %}
 
-      {% if content_words != excerpt_words %}
-        <a href="{{ site.baseurl }}{{ post.url }}">More &hellip;</a>
-      {% endif %}
+
     {% endif %}
   </article>
   {% endfor %}
