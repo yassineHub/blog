@@ -2,7 +2,7 @@
 layout: post
 title: Hello Hydeout
 excerpt_separator: <!--more-->
-published: false
+published: true
 ---
 
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
