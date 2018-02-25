@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Hello Hydeout
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
+published: false
 ---
 
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
 theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
 
-### Keep It Simple
+### Keep It Simple Yassine
 
 In keeping with the original Hyde theme, Hydeout aims to keep the overall
 design lightweight and plugin-free. JavaScript is currently limited only
