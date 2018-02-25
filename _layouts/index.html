@@ -16,11 +16,6 @@ layout: default
     </h2>
     {% include post-meta.html post=post %}
 
-    {% if post.excerpt %}
-      {{ post.excerpt }}
-    {% else %}
-      {{ post.content }}
-    {% endif %}
 
     {% if post.excerpt %}
       {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
