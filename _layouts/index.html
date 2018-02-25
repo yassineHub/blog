@@ -31,7 +31,9 @@ layout: default
         {{ post.excerpt | number_of_words }}
       {% endcapture %}
 
-
+      {% if content_words != excerpt_words %}
+        <a href="{{ site.baseurl }}{{ post.url }}">More &hellip;</a>
+      {% endif %}
     {% endif %}
   </article>
   {% endfor %}
