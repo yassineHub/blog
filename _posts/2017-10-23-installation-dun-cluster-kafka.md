@@ -1,15 +1,19 @@
 ---
 id: 318
-title: 'Installation d&rsquo;un cluster Kafka'
-date: 2017-10-23T14:55:50+00:00
+title: Installation d&rsquo;un cluster Kafka
+date: {}
 author: admin
 layout: post
-guid: http://boussoufiane.com/?p=318
+guid: 'http://boussoufiane.com/?p=318'
 permalink: /installation-dun-cluster-kafka/
 categories:
   - JAVA
+published: true
 ---
-1. Introduction
+1. Introduction1
+
+* TOC
+{:toc}
 
 Kafka est un système de message distribué, il permet les échanges de messages asynchrones entre différents systèmes.
   
