@@ -11,6 +11,9 @@ categories:
 ---
 1. Introduction
 
+* TOC
+{:toc}
+
 Kafka est un système de message distribué, il permet les échanges de messages asynchrones entre différents systèmes.
   
 Kafka utilise Zookeeper pour gérer les différents instances d’un cluster .
