@@ -10,7 +10,7 @@ categories:
   - JAVA
 published: true
 ---
-1. Introduction1
+1. Introduction 1
 
 * TOC
 {:toc}
